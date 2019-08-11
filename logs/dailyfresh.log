@@ -20,3 +20,436 @@ WARNING 2019-08-11 19:26:45,717 basehttp 124 "GET /static/css/reset.css HTTP/1.1
 INFO 2019-08-11 19:26:46,158 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
 INFO 2019-08-11 19:26:46,161 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
 INFO 2019-08-11 19:26:46,163 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 19:43:38,250 base 152 Not Found: /register
+WARNING 2019-08-11 19:43:38,251 basehttp 124 "GET /register HTTP/1.1" 404 2385
+INFO 2019-08-11 19:44:07,162 basehttp 124 "GET /user/register HTTP/1.1" 301 0
+INFO 2019-08-11 19:44:07,226 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2415
+WARNING 2019-08-11 19:44:07,262 base 152 Not Found: /user/register/css/reset.css
+WARNING 2019-08-11 19:44:07,269 base 152 Not Found: /user/static/css/main.css
+WARNING 2019-08-11 19:44:07,271 basehttp 124 "GET /user/static/css/main.css HTTP/1.1" 404 2508
+WARNING 2019-08-11 19:44:07,279 base 152 Not Found: /user/static/js/jquery-1.12.4.min.js
+WARNING 2019-08-11 19:44:07,282 base 152 Not Found: /user/static/images/logo02.png
+WARNING 2019-08-11 19:44:07,283 basehttp 124 "GET /user/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 2541
+WARNING 2019-08-11 19:44:07,288 base 152 Not Found: /user/static/js/register.js
+WARNING 2019-08-11 19:44:07,290 basehttp 124 "GET /user/register/css/reset.css HTTP/1.1" 404 2517
+WARNING 2019-08-11 19:44:07,294 basehttp 124 "GET /user/static/js/register.js HTTP/1.1" 404 2514
+WARNING 2019-08-11 19:44:07,297 basehttp 124 "GET /user/static/images/logo02.png HTTP/1.1" 404 2523
+INFO 2019-08-11 19:44:10,789 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2415
+WARNING 2019-08-11 19:44:10,806 base 152 Not Found: /user/register/css/reset.css
+WARNING 2019-08-11 19:44:10,815 base 152 Not Found: /user/static/css/main.css
+WARNING 2019-08-11 19:44:10,817 basehttp 124 "GET /user/static/css/main.css HTTP/1.1" 404 2508
+WARNING 2019-08-11 19:44:10,824 basehttp 124 "GET /user/register/css/reset.css HTTP/1.1" 404 2517
+WARNING 2019-08-11 19:44:10,839 base 152 Not Found: /user/static/images/logo02.png
+WARNING 2019-08-11 19:44:10,837 base 152 Not Found: /user/static/js/register.js
+WARNING 2019-08-11 19:44:10,841 base 152 Not Found: /user/static/js/jquery-1.12.4.min.js
+WARNING 2019-08-11 19:44:10,846 basehttp 124 "GET /user/static/js/register.js HTTP/1.1" 404 2514
+WARNING 2019-08-11 19:44:10,851 basehttp 124 "GET /user/static/js/jquery-1.12.4.min.js HTTP/1.1" 404 2541
+WARNING 2019-08-11 19:44:10,852 basehttp 124 "GET /user/static/images/logo02.png HTTP/1.1" 404 2523
+WARNING 2019-08-11 19:44:10,865 base 152 Not Found: /user/static/js/register.js
+WARNING 2019-08-11 19:44:10,868 basehttp 124 "GET /user/static/js/register.js HTTP/1.1" 404 2514
+INFO 2019-08-11 19:50:39,226 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 19:50:39,249 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 19:50:39,254 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,265 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,275 basehttp 124 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,289 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,430 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,436 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO 2019-08-11 19:50:39,438 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 304 0
+INFO 2019-08-11 19:54:27,868 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-08-11 19:54:27,871 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-08-11 19:54:57,290 basehttp 124 "GET /user/register/?user_name=wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 200 2416
+INFO 2019-08-11 19:54:57,307 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 19:54:57,310 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 19:54:57,314 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 19:54:57,326 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 19:54:57,331 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 19:54:57,396 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 19:54:57,401 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 19:54:57,406 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 20:05:38,866 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 20:05:38,893 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:05:38,907 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:05:38,908 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:05:38,936 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:05:38,954 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:05:38,957 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:05:38,969 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:05:38,976 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 20:06:14,820 basehttp 124 "GET /user/register/?user_name=wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 200 2416
+INFO 2019-08-11 20:06:14,846 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:06:14,858 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:06:14,864 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:06:14,867 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:06:14,873 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:06:14,921 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:06:14,934 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:06:14,958 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 20:53:18,917 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 20:53:18,938 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:53:18,947 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:53:18,954 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:53:18,956 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:53:18,957 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:53:19,021 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:53:19,024 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:53:19,027 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+ERROR 2019-08-11 20:53:54,337 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 33, in get
+    if User.objects.get(username=user_name):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+user.models.DoesNotExist: User matching query does not exist.
+ERROR 2019-08-11 20:53:54,564 basehttp 124 "GET /user/register/?user_name=wangyue&pwd=%2512345678&cpwd=%2512345678&email=1%401.com&allow=on HTTP/1.1" 500 97596
+INFO 2019-08-11 20:55:59,032 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 20:55:59,070 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:55:59,100 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:55:59,100 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:55:59,106 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:55:59,108 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:55:59,153 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:55:59,155 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:55:59,159 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+ERROR 2019-08-11 20:56:31,462 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 34, in get
+    if User.objects.get(username=user_name):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/db/models/query.py", line 380, in get
+    self.model._meta.object_name
+user.models.DoesNotExist: User matching query does not exist.
+ERROR 2019-08-11 20:56:31,584 basehttp 124 "GET /user/register/?user_name=wangyue&pwd=.12345678&cpwd=.12345678&email=1%401.com&allow=on HTTP/1.1" 500 101922
+INFO 2019-08-11 20:59:20,802 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 20:59:20,916 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 20:59:20,941 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:59:20,945 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:59:20,948 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:59:20,951 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:59:20,952 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:59:21,013 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:59:21,016 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:59:21,021 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 20:59:41,955 basehttp 124 "GET /user/register/?user_name=%26wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 200 2416
+INFO 2019-08-11 20:59:41,983 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 20:59:41,990 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 20:59:41,992 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 20:59:41,995 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 20:59:42,000 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 20:59:42,045 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 20:59:42,049 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 20:59:42,058 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:00:38,404 basehttp 124 "GET /user/register/?user_name=%26wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 200 2416
+INFO 2019-08-11 21:00:38,424 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:00:38,438 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:00:38,441 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:00:38,447 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:00:38,454 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:00:38,482 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:00:38,490 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:00:38,494 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:01:21,615 basehttp 124 "GET /user/register/?user_name=%26wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 200 2416
+INFO 2019-08-11 21:01:21,653 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:01:21,657 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:01:21,658 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:01:21,660 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:01:21,661 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:01:21,705 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:01:21,711 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:01:21,715 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:03:40,187 basehttp 124 "GET /user/register/?user_name=%26wangyue&pwd=12345678&cpwd=12345678&email=1%401.com&allow=on HTTP/1.1" 403 36
+INFO 2019-08-11 21:07:47,703 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2416
+INFO 2019-08-11 21:07:47,721 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:07:47,731 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:07:47,736 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:07:47,739 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:07:47,743 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:07:47,792 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:07:47,798 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:07:47,802 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:12:45,284 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2597
+INFO 2019-08-11 21:12:45,309 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:12:45,317 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:12:45,319 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:12:45,326 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:12:45,331 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:12:45,369 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:12:45,371 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:12:45,374 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:12:50,245 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:12:50,246 basehttp 124 "POST /user/register/user/register HTTP/1.1" 404 2688
+WARNING 2019-08-11 21:13:13,552 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:13:13,553 basehttp 124 "GET /user/register/user/register HTTP/1.1" 404 2687
+INFO 2019-08-11 21:13:23,554 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2597
+INFO 2019-08-11 21:13:23,587 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:13:23,592 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:13:23,598 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:13:23,599 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:13:23,601 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:13:23,644 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:13:23,646 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:13:23,648 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:13:43,906 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:13:43,907 basehttp 124 "POST /user/register/user/register HTTP/1.1" 404 2688
+INFO 2019-08-11 21:14:23,392 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2454
+INFO 2019-08-11 21:14:23,412 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:14:23,433 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:14:23,439 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:14:23,445 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:14:23,463 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:14:23,483 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:14:23,493 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:14:23,503 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:14:36,737 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:14:36,739 basehttp 124 "POST /user/register/user/register HTTP/1.1" 404 2688
+ERROR 2019-08-11 21:15:33,472 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 19, in get
+    email = request.GET.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:15:33,549 basehttp 124 "GET /user/register/ HTTP/1.1" 500 87566
+ERROR 2019-08-11 21:15:35,218 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 19, in get
+    email = request.GET.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:15:35,309 basehttp 124 "GET /user/register/?user_name=wangyue&pwd=.12345678&cpwd=.12345678&email=1%401.com&allow=on HTTP/1.1" 500 89412
+ERROR 2019-08-11 21:15:40,595 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 19, in get
+    email = request.GET.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:15:40,656 basehttp 124 "GET /user/register/ HTTP/1.1" 500 87305
+ERROR 2019-08-11 21:15:40,785 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 19, in get
+    email = request.GET.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:15:40,894 basehttp 124 "GET /user/register/ HTTP/1.1" 500 87566
+INFO 2019-08-11 21:17:30,284 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2454
+INFO 2019-08-11 21:17:30,325 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:17:30,326 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:17:30,334 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:17:30,336 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:17:30,338 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:17:30,371 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:17:30,375 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:17:30,377 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:17:45,360 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:17:45,363 basehttp 124 "POST /user/register/user/register HTTP/1.1" 404 2688
+INFO 2019-08-11 21:18:49,174 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2454
+INFO 2019-08-11 21:18:49,199 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:18:49,205 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:18:49,206 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:18:49,214 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:18:49,223 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:18:49,249 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:18:49,253 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:18:49,257 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:19:00,619 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:19:00,622 basehttp 124 "POST /user/register/user/register HTTP/1.1" 404 2688
+WARNING 2019-08-11 21:24:46,032 base 152 Not Found: /user/register/user/register
+WARNING 2019-08-11 21:24:46,045 basehttp 124 "GET /user/register/user/register HTTP/1.1" 404 2687
+INFO 2019-08-11 21:24:51,660 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:24:51,682 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:24:51,683 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:24:51,687 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:24:51,689 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:24:51,691 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:24:51,751 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:24:51,756 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:24:51,764 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2019-08-11 21:25:05,632 csrf 160 Forbidden (CSRF token missing or incorrect.): /user/register/
+WARNING 2019-08-11 21:25:05,697 basehttp 124 "POST /user/register/ HTTP/1.1" 403 2497
+INFO 2019-08-11 21:26:36,809 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:26:36,831 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:26:36,837 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:26:36,840 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:26:36,844 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:26:36,847 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:26:36,900 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:26:36,907 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:26:36,915 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+ERROR 2019-08-11 21:26:52,070 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 20, in post
+    email = request.GET.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:26:52,162 basehttp 124 "POST /user/register/ HTTP/1.1" 500 87793
+INFO 2019-08-11 21:27:24,259 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:27:24,281 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:27:24,284 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:27:24,290 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:27:24,306 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:27:24,311 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:27:24,358 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:27:24,360 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:27:24,364 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+ERROR 2019-08-11 21:27:34,161 exception 135 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/django1.11/local/lib/python3.5/site-packages/pysnooper/tracer.py", line 224, in simple_wrapper
+    return function(*args, **kwargs)
+  File "/home/python/Documents/dailyfresh/apps/user/views.py", line 20, in post
+    email = request.POST.POST("email")
+AttributeError: 'QueryDict' object has no attribute 'POST'
+ERROR 2019-08-11 21:27:34,258 basehttp 124 "POST /user/register/ HTTP/1.1" 500 87796
+INFO 2019-08-11 21:28:32,554 basehttp 124 "GET /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:28:32,587 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:28:32,593 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:28:32,594 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:28:32,598 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:28:32,599 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:28:32,632 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:28:32,636 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:28:32,638 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:28:50,505 basehttp 124 "POST /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:28:50,524 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:28:50,533 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:28:50,537 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:28:50,541 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:28:50,542 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:28:50,600 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:28:50,604 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:28:50,607 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:30:38,241 basehttp 124 "POST /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:30:38,260 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:30:38,260 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:30:38,263 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:30:38,270 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:30:38,282 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:30:38,311 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:30:38,313 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:30:38,320 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:37:10,514 basehttp 124 "POST /user/register/ HTTP/1.1" 200 2441
+INFO 2019-08-11 21:37:10,535 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:37:10,538 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 22992
+INFO 2019-08-11 21:37:10,549 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-08-11 21:37:10,553 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 2312
+INFO 2019-08-11 21:37:10,557 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 18818
+INFO 2019-08-11 21:37:10,633 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-08-11 21:37:10,636 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-08-11 21:37:10,655 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO 2019-08-11 21:39:06,390 basehttp 124 "POST /user/register/ HTTP/1.1" 302 0
+INFO 2019-08-11 21:39:06,416 basehttp 124 "GET /index/ HTTP/1.1" 200 11245
+INFO 2019-08-11 21:39:06,444 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-08-11 21:39:06,483 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO 2019-08-11 21:39:06,513 basehttp 124 "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO 2019-08-11 21:39:06,532 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 9987
+INFO 2019-08-11 21:39:06,551 basehttp 124 "GET /static/images/slide.jpg HTTP/1.1" 200 43271
+WARNING 2019-08-11 21:39:06,574 base 152 Not Found: /index/js/slideshow.js
+WARNING 2019-08-11 21:39:06,575 basehttp 124 "GET /index/js/slideshow.js HTTP/1.1" 404 2594
+INFO 2019-08-11 21:39:06,606 basehttp 124 "GET /static/images/slide02.jpg HTTP/1.1" 200 46855
+INFO 2019-08-11 21:39:06,623 basehttp 124 "GET /static/images/adv01.jpg HTTP/1.1" 200 13988
+INFO 2019-08-11 21:39:06,628 basehttp 124 "GET /static/images/adv02.jpg HTTP/1.1" 200 15859
+INFO 2019-08-11 21:39:06,640 basehttp 124 "GET /static/images/banner01.jpg HTTP/1.1" 200 9919
+INFO 2019-08-11 21:39:06,668 basehttp 124 "GET /static/images/slide03.jpg HTTP/1.1" 200 70593
+INFO 2019-08-11 21:39:06,675 basehttp 124 "GET /static/images/banner02.jpg HTTP/1.1" 200 18351
+INFO 2019-08-11 21:39:06,704 basehttp 124 "GET /static/images/slide04.jpg HTTP/1.1" 200 62570
+INFO 2019-08-11 21:39:06,794 basehttp 124 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 9102
+INFO 2019-08-11 21:39:06,796 basehttp 124 "GET /static/images/goods/goods019.jpg HTTP/1.1" 200 9457
+INFO 2019-08-11 21:39:06,800 basehttp 124 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 9612
+INFO 2019-08-11 21:39:06,807 basehttp 124 "GET /static/images/banner03.jpg HTTP/1.1" 200 13013
+INFO 2019-08-11 21:39:06,822 basehttp 124 "GET /static/images/goods/goods020.jpg HTTP/1.1" 200 9320
+INFO 2019-08-11 21:39:06,823 basehttp 124 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 8349
+INFO 2019-08-11 21:39:06,826 basehttp 124 "GET /static/images/goods/goods018.jpg HTTP/1.1" 200 9424
+INFO 2019-08-11 21:39:06,832 basehttp 124 "GET /static/images/banner04.jpg HTTP/1.1" 200 10823
+INFO 2019-08-11 21:39:06,836 basehttp 124 "GET /static/images/banner05.jpg HTTP/1.1" 200 16081
+INFO 2019-08-11 21:39:06,837 basehttp 124 "GET /static/images/banner06.jpg HTTP/1.1" 200 14257
+INFO 2019-08-11 21:39:06,852 basehttp 124 "GET /static/images/goods/goods012.jpg HTTP/1.1" 200 7864
+INFO 2019-08-11 21:39:06,853 basehttp 124 "GET /static/images/goods/goods021.jpg HTTP/1.1" 200 14649
+INFO 2019-08-11 21:39:06,876 basehttp 124 "GET /static/images/goods.jpg HTTP/1.1" 200 6100

@@ -103,8 +103,6 @@ $(function(){
 		}
 
 	}
-
-
 	$('#reg_form').submit(function() {
 		check_user_name();
 		check_pwd();
@@ -119,7 +117,6 @@ $(function(){
 		{
 			return false;
 		}
-
 	});
 
 

@@ -200,3 +200,14 @@ LOGGING = {
 
 # 指定Django用户认证系统使用的模型类
 AUTH_USER_MODEL = 'user.User'
+
+# 邮件服务配置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # 指定邮件后端
+EMAIL_HOST = 'smtp.163.com' # 发邮件主机
+EMAIL_PORT = 25 # 发邮件端口
+EMAIL_HOST_USER = '15682129137@163.com' # 授权的邮箱
+EMAIL_HOST_PASSWORD = 'wangyi123' # 邮箱授权时获得的密码，非注册登录密码
+EMAIL_FROM = '天天生鲜<15682129137@163.com>' # 发件人抬头
+
+# 邮箱验证接口
+EMAIL_VERIFY_URL = 'http://www.dailyfresh.site:8000/emails/verification/'

@@ -1,18 +1,26 @@
-
-from django.contrib.auth import login
+import re
+from django.conf import settings
 from django.http import HttpResponseForbidden
 from django.shortcuts import render, redirect
+from django.urls import reverse
 from django.views import View
+from celery_tasks.email.tasks import send_sms
 from user.models import User
-import re
+from utils import verify_token
 import pysnooper
+
+@pysnooper.snoop()
+def generate_verify_email_url(user):
+    token = verify_token.dumps(user)
+    verify_url = settings.EMAIL_VERIFY_URL + "?token" + token
+    return verify_url
+
 
 class RegisterView(View):
     # 返回注册页面
-    @pysnooper.snoop()
+
     def get(self,request):
         return render(request, "register.html")
-
     @pysnooper.snoop()
     def post(self,request):
         user_name = request.POST.get("user_name")
@@ -37,8 +45,11 @@ class RegisterView(View):
             return render(request, "register.html", {"errmsg": "用户名已存在"})
         try:
             user = User.objects.create_user(username=user_name, password=password, email=email)
-            login(request, user)
-            from django.urls import reverse
+            user.is_active = 0
+            # 发送激活邮件
+            verify_url = generate_verify_email_url(user)
+            send_sms.delay(email, verify_url)
+            user.save()
             return redirect(reverse("goods:index"))
         except:
             return render(request, "register.html", {"errmsg": "注册失败"})

@@ -210,4 +210,4 @@ EMAIL_HOST_PASSWORD = 'wangyi123' # 邮箱授权时获得的密码，非注册�
 EMAIL_FROM = '天天生鲜<15682129137@163.com>' # 发件人抬头
 
 # 邮箱验证接口
-EMAIL_VERIFY_URL = 'http://www.dailyfresh.site:8000/emails/verification/'
+EMAIL_VERIFY_URL = '127.0.0.1:8000/user/emails/verification/'
